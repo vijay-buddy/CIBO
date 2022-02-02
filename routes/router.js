@@ -19,7 +19,7 @@ let route = express.Router();
 
 //API
 
-route.post('/api/user/login',controller.login);
+route.post('/ap/user/login',controller.login);
 
 route.post('/api/user/signup',controller.signUp);
 
